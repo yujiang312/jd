@@ -1,0 +1,21 @@
+/* 解决各个浏览器不同属性的文件:初始化＋重置*/
+
+html,
+body,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+dl,
+dt,
+dd {
+    margin: 0;
+    padding: 0;
+}
